@@ -33,6 +33,7 @@ $mejoresLenguas[]="JAVA";
 ?>
 
 <ul>
+<!-- $key es el indice que se saca de $lengua  -->
     <?php foreach($mejoresLenguas as $key => $lengua) : ?>
         <li><?= $key."".$lengua?></li>
     <?php endforeach; ?>
